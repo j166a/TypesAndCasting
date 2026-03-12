@@ -16,6 +16,15 @@ namespace TypesAndCasting
             Console.WriteLine(floatVariable);
             Console.WriteLine(stringVariable);
             Console.WriteLine(doubleVariable);
+            int myInt = 2;
+            decimal ourDecimal = myInt;
+            decimal ourDecimal2 = 1.1m;
+            double ourDouble = (double)ourDecimal2;
+            Console.WriteLine(ourDouble);
+            
+
+
+
             
         }
     }
