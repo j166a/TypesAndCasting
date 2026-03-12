@@ -22,23 +22,23 @@ namespace TypesAndCasting
             int myInt = 2;
             decimal ourDecimal = myInt;
 
-            //decimal to double
+            //Explicit conversion from decimal to double
 
             decimal ourDecimal2 = 1.1m;
             double ourDouble = (double)ourDecimal2;
             Console.WriteLine(ourDouble);
 
-            //float to int
+            //Explicit conversion from float to int
 
             float ourFloat = 2.9f;
             int ourInt = (int)ourFloat;
             Console.WriteLine(ourInt);
 
-            // float to decimal
+            //Explicit conversion from float to decimal
             decimal ourDecimal3 = (decimal)ourFloat;
             Console.WriteLine(ourDecimal3);
 
-            // doubel to flaot 
+            //Explicit conversion from double to flaot 
             double ourDouble2 = 3.678908765436578;
             float ourFloat1 = (float)ourDouble2;
             Console.WriteLine(ourFloat1);
