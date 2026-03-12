@@ -21,6 +21,11 @@ namespace TypesAndCasting
             decimal ourDecimal2 = 1.1m;
             double ourDouble = (double)ourDecimal2;
             Console.WriteLine(ourDouble);
+            //
+            float ourFloat = 2.9f;
+            int ourInt = (int)ourFloat;
+            Console.WriteLine(ourInt);
+
             
 
 
