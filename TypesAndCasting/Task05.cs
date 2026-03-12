@@ -18,14 +18,14 @@ namespace TypesAndCasting
             //Console.Write("Please input a decimal number: ");
             //decimal userInputDecimal = decimal.Parse(Console.ReadLine());
 
-            //TryParse
-            Console.Write("Please input an integer: ");
+            ////TryParse
+            //Console.Write("Please input an integer: ");
 
-            bool isInteger = int.TryParse(Console.ReadLine(), out int userInputInteger);
-            if (isInteger) 
-            {
-                Console.WriteLine($"{isInteger}: {userInputInteger} is an integer.");
-            } Console.WriteLine($"{isInteger}: {userInputInteger} is not an integer. Please input a valid integer!");
+            //bool isInteger = int.TryParse(Console.ReadLine(), out int userInputInteger);
+            //if (isInteger) 
+            //{
+            //    Console.WriteLine($"{isInteger}: {userInputInteger} is an integer.");
+            //} Console.WriteLine($"{isInteger}: {userInputInteger} is not an integer. Please input a valid integer!");
 
 
             //Divide integer by decimal

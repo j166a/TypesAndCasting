@@ -18,6 +18,10 @@
             //Task05
             Task05.ParseInput();
 
+            //Task07
+            Task07.Run();
+
+
         }
     }
 }
