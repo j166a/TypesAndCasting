@@ -8,7 +8,7 @@ namespace TypesAndCasting
 {
     internal class Task01
     {
-        public  void Run()
+        public static void Run()
         {
             float floatVariable = 3.80f;
             string stringVariable = "h";
