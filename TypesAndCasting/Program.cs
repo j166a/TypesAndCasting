@@ -15,12 +15,13 @@
             int result = Task04.MultiplyInt((int)num1, (int)num2);
             Console.WriteLine(result);
 
-            //Task05
-            Task05.ParseInput();
+            ////Task05
+            //Task05.ParseInput();
 
-            //Task07
-            Task07.Run();
+            ////Task07
+            //Task07.Run();
 
+            Task08.ParseInput2();
 
         }
     }
