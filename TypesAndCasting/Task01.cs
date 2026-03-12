@@ -25,6 +25,11 @@ namespace TypesAndCasting
             float ourFloat = 2.9f;
             int ourInt = (int)ourFloat;
             Console.WriteLine(ourInt);
+            // float to decimal
+            decimal ourDecimal3 = (decimal)ourFloat;
+            Console.WriteLine(ourDecimal3);
+            // d
+
 
             
 
