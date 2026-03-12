@@ -15,6 +15,9 @@
             int result = Task04.MultiplyInt((int)num1, (int)num2);
             Console.WriteLine(result);
 
+            //Task05
+            Task05.ParseInput();
+
         }
     }
 }
